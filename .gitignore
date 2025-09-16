@@ -1,0 +1,6 @@
+﻿.godot/
+.import/
+export/
+*.translation
+.DS_Store
+Thumbs.db

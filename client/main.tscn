@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://drhao5gpdgrbo"]
+
+[ext_resource type="Script" uid="uid://dnpv1nmh128hp" path="res://client/scripts/Player.gd" id="1_w5dac"]
+[ext_resource type="Texture2D" uid="uid://biuial3fislt" path="res://icon.svg" id="2_phug0"]
+
+[node name="Main" type="Node2D"]
+
+[node name="Player" type="CharacterBody2D" parent="."]
+script = ExtResource("1_w5dac")
+
+[node name="Sprite2D" type="Sprite2D" parent="Player"]
+position = Vector2(182, 123)
+scale = Vector2(0.3, 0.3)
+texture = ExtResource("2_phug0")
